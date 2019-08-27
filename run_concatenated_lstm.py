@@ -187,8 +187,6 @@ for epoch in range(num_epochs):
 
     curr_acc = correct * 100.0 / total
     valid_acc_history.append(curr_acc)
-    print('Current accuracy : ', curr_acc)
-
     early_stopping(-curr_acc, lstm)
 
     if early_stopping.early_stop:
