@@ -9,7 +9,6 @@ from JobDataClass import JobData
 from CVDataClass import CVData
 from cnn_models import textCNN, textCNNWithEmbedding
 import torch
-from torch.autograd import Variable
 import torch.nn as nn
 import torch.nn.functional as F
 # downloaded from https://github.com/Bjarten/early-stopping-pytorch
