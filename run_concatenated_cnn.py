@@ -75,7 +75,7 @@ valid_loader = torch.utils.data.DataLoader(dataset=valid_dataset,
                                           batch_size=batch_size,
                                           shuffle=False)
 
-num_epochs = 50
+num_epochs = 100
 learning_rate = 0.001
 embed_dim = 200
 class_num = 2
@@ -189,7 +189,7 @@ print('Test Accuracy of the model: %d %%' % (100.0 * correct / total))
 test_acc = 100 * correct / (total + 0.0)
 
 print('Mode:', mode)
-desired_precision = 0.90
+desired_precision = 0.95
 precision, recall, f1_w, f1 = find_recall_for_fixed_precision(y_true_border, pred_border, desired_precision)
 print('Precision: {0}, Recall: {1}, F1_weighted: {2}'.format(precision, recall, f1_w))
 
