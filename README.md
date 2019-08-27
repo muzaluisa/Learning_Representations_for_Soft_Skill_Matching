@@ -1,4 +1,4 @@
-# Learning_Representations for Soft Skill Matching
+# Learning Representations for Soft Skill Matching
 
 A code and dataset for the paper "Learning Representations for Soft Skill Matching"
 
