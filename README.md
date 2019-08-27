@@ -1,6 +1,6 @@
 # Learning Representations for Soft Skill Matching
 
-A code and dataset for the paper "Learning Representations for Soft Skill Matching" (the code includes CNN, LSTM models with and without concatenated soft skill vectors). 
+A code and dataset for the paper "Learning Representations for Soft Skill Matching" (the code includes PyTorch implementations of CNN, LSTM models with and without concatenated soft skill vectors). 
 
 Please find Hierarchical Attention Network implementation here: https://github.com/EdGENetworks/anuvada
 
